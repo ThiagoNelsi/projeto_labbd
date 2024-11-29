@@ -1,4 +1,8 @@
--- CREATION TABLES
+CREATE DATABASE `labbd`;
+
+use labbd;
+
+-- CREATE TABLES
 
 CREATE TABLE `docente` (
   `NU_ANO_CENSO` int DEFAULT NULL,
