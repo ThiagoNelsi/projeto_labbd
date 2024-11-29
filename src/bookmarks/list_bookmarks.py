@@ -12,4 +12,4 @@ df = database.connection.run_query(query, True)
 if df.size > 0:
   st.dataframe(df, use_container_width=True)
 else:
-  st.info('Você não possui nenhum bookmark adicionado')
+  st.info('Nenhum bookmark cadastrado')

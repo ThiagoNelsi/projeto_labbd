@@ -10,6 +10,9 @@ query = f"""
 """
 
 turmas_df = database.connection.run_query(query, True)
+# Subistituir municipio 3543907 por `Rio Claro`
+turmas_df.loc[turmas_df['Municipio'] == 3543907, 'Municipio'] = 'Rio Claro'
+
 st.dataframe(turmas_df, use_container_width=True)
 
 st.divider()
