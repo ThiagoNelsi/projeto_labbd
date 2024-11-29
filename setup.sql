@@ -538,7 +538,7 @@ CREATE TABLE `bookmark` (
 -- IMPORTING DATA
 
 SET sql_mode = "";
-load data infile '/var/lib/mysql-files/data/etapas.csv'
+load data infile '/var/lib/mysql-files/etapas.csv'
 into table labbd.etapas
 fields terminated by ';'
 enclosed by '"'
@@ -546,14 +546,14 @@ ignore 1 lines
 ;
 
 SET sql_mode = "";
-load data infile '/var/lib/mysql-files/data/docente.csv'
+load data infile '/var/lib/mysql-files/docente.csv'
 into table labbd.docente
 fields terminated by ','
 enclosed by '"'
 ignore 1 lines
 ;
 
-load data infile '/var/lib/mysql-files/data/escola.csv'
+load data infile '/var/lib/mysql-files/escola.csv'
 into table labbd.escola
 fields terminated by ','
 enclosed by '"'
@@ -561,21 +561,21 @@ ignore 1 lines
 ;
 
 SET sql_mode = "";
-load data infile '/var/lib/mysql-files/data/matricula.csv'
+load data infile '/var/lib/mysql-files/matricula.csv'
 into table labbd.matricula
 fields terminated by ','
 enclosed by '"'
 ignore 1 lines
 ;
 
-load data infile '/var/lib/mysql-files/data/turma.csv'
+load data infile '/var/lib/mysql-files/turma.csv'
 into table labbd.turma
 fields terminated by ','
 enclosed by '"'
 ignore 1 lines
 ;
 
-load data infile '/var/lib/mysql-files/data/geolocalizacao.csv'
+load data infile '/var/lib/mysql-files/geolocalizacao.csv'
 into table labbd.geolocalizad
 fields terminated by ','
 enclosed by '"'
