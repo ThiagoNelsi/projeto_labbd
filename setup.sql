@@ -1,7 +1,8 @@
+DROP DATABASE IF EXISTS `labbd`;
 CREATE DATABASE `labbd`;
 
 use labbd;
-# drop table turma;
+
 create table docente
 (
 NU_ANO_CENSO int
