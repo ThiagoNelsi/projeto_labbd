@@ -27,3 +27,10 @@ streamlit run app.py
 ```
 
 Por fim, acesse http://localhost:8501/
+
+Para fazer login pela primeira vez use
+
+```
+Usuário: admin
+Senha: 123
+```
